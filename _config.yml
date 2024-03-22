@@ -1,12 +1,12 @@
 # 1. Site Settings
-title               : pRoJEct-VeXEd
-owner               : "DeerRIDER"
-url                : "https://akiritsu.github.io"
-baseurl            : "/pRoJEct-VeXEd"
+title               : U Got Pwned
+owner               : "Bl4cksku11"
+url                : "https://bl4cksku11.github.io"
+baseurl            : "/home"
 permalink           : /:title/
-description         : "A hacker-style note-keeping website template."
+description         : "This is my hacking site, hacking articles, exploits, CVEs, PoCs and more."
 markdown            : kramdown
-statement           : "Designed by DeerRIDER, All Rights Reserved"
+statement           : "Designed by Bl4cksku11, All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
@@ -14,52 +14,29 @@ bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]
 # Keep it null if you want to show items in alphabetic order.
 collection_order    : 
   [
-    "posts",
-    "math",
-    "album",
-    "physics",
-    "biology",
-    "finance",
-    "physics",
-    "my_notes",
-    "portfolio",
+    "Hacking_notes",
+    "HackTheBox",
+    "Portfolio",
   ]
 collections:
-  math:   
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : "Mathematics"
   portfolio:
     output          : true
     permalink       : /:collection/:title/
     order: # specify post order manually
-      - portfolio3.md
-      - portfolio2.md
-      - portfolio1.md
-  album:
+      - portfolio.md
+  HackTheBox:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-  physics:
-    output          : true
-    permalink       : /:collection/:title/
-  biology:
-    output          : true
-    permalink       : /:collection/:title/
-  finance:
-    output          : true
-    permalink       : /:collection/:title/
-  my_notes:
+    alias           : "HackTheBox Writeups"
+  Hacking_notes:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
-    alias           : "My Notes"
-  posts:
-    output          : true
+    alias           : "My Hacking notes"
 
 # 3. Comment settings（disqus.com）
-disqus_username     : akiritsu
+disqus_username     : bl4cksku11
 
 # 4. Default page settings (WILL BE overwriten by front-matters of a page)
 defaults:
@@ -76,7 +53,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "DeerRIDER" # author name by default
+      author              : "Bl4cksku11" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
@@ -84,16 +61,16 @@ defaults:
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               : "https://github.com/akiritsu/pRoJEct-VeXEd" 
+email               : "bl4cksku111@gmail.com" 
 linkedin            : 
-github              : "just-test" 
+github              : "https://github.com/bl4cksku11" 
 gitlab              : 
-website             : "https://github.com/akiritsu/pRoJEct-VeXEd"
-twitter             : "just-test"
-facebook            : "just-test"
+website             : "https://bl4cksku11.github.io"
+twitter             : "https://twitter.com/bl4cksku111"
+facebook            : 
 instagram           : 
-youtube             : "just-test"
-steam               : "just-test"
+youtube             : 
+steam               : 
 weibo               :
       
 # 6. Where things are
