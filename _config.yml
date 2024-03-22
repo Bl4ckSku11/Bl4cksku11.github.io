@@ -2,7 +2,7 @@
 title               : U Got Pwned
 owner               : "Bl4cksku11"
 url                : "https://bl4cksku11.github.io"
-baseurl            : "/home"
+baseurl            : "/bl4cksku11"
 permalink           : /:title/
 description         : "This is my hacking site, hacking articles, exploits, CVEs, PoCs and more."
 markdown            : kramdown
